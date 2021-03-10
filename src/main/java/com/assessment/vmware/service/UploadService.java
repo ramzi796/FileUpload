@@ -35,7 +35,7 @@ public class UploadService implements ApplicationEventPublisherAware {
 			} else {
 				object.setTask(null);
 				object.setStatus("Failure");
-				object.setErrMessage("Only txt extension is accepted");
+				object.setErrMessage("Only txt file types is accepted");
 			}
 		} else {
 			object.setTask(null);
